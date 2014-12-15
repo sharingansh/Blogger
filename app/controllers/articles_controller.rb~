@@ -1,0 +1,8 @@
+class ArticlesController < ApplicationController
+	def index
+		@articles=Article.all
+		print ("hi")
+	end
+	def show
+	end
+end
